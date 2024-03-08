@@ -9,19 +9,29 @@
     - Dependencies: PostgreSQL is required
     - Installation Instructions:
     1. install PostgreSQL
-    2. db_info are:
+    2. open pgAdmin4 
+    3. create DB
+    4. db_info are:
         DB_NAME=students
         DB_USER=postgres
         DB_PASSWORD=simon
         DB_HOST=127.0.0.1
         DB_PORT=5432
-    3. create virtual environment. for example, python -m venv venv
-    4. venv\scripts\activate to activate virtual environment
-    5. ```python manage.py runserver```
+    5. create virtual environment. for example, python -m venv venv
+    6. `venv\scripts\activate` to activate virtual environment
+    7. comment in terminal:
+    python manage.py makemigrations
+    8. comment in terminal:
+    python manage.py migrate
+    9. `python manage.py runserver` to run server
 
 ## 3. Usage
     - Examples: Include examples or code snippets to demonstrate how to use your project.
+
+    
     - Configuration: Explain any configuration options or settings users might need to know about.
+
+    
 ## 4. Features
     - List of Features: Outline the main features and functionalities of your project.
 ## 5. Contributing
