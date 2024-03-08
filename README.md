@@ -3,10 +3,10 @@
 ### Please use the following template to add a ReadMe for your repo.
 
 ## 1. Project Title and Description
-    - Title: Provide a clear and concise title for your project.
-    - Description: Give a brief overview of what your project does and its purpose.
+    - Title: Student Management System: Blackboard
+    - Description: Teachers can manage the students' information
 ## 2. Installation
-    - Dependencies: List any dependencies or prerequisites required to use your project.
+    - Dependencies: PostgreSQL is required
     - Installation Instructions: Provide step-by-step instructions on how to install and set up your project.
 ## 3. Usage
     - Examples: Include examples or code snippets to demonstrate how to use your project.
@@ -17,8 +17,9 @@
     - Guidelines: Explain how others can contribute to your project, including information on submitting bug reports, feature requests, or code contributions.
     - Code Style: If applicable, provide guidelines or references to your code style.
 ## 6. Credits
-    - Authors: List the authors or contributors of the project.
-    - Acknowledgments: Mention any individuals or resources that helped inspire or support your project.
+    - Authors: Seongjun Kim, Aidel Royart.
+    - Acknowledgments: bootswatch - https://bootswatch.com/, Font Awesome - https://fontawesome.com/
+    
 ## 7. License
     - License Information: Specify the license under which your project is distributed.
 ## 8. Additional Sections (Optional)
