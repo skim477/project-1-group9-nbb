@@ -7,7 +7,18 @@
     - Description: Teachers can manage the students' information
 ## 2. Installation
     - Dependencies: PostgreSQL is required
-    - Installation Instructions: Provide step-by-step instructions on how to install and set up your project.
+    - Installation Instructions:
+    1. install PostgreSQL
+    2. db_info are:
+        DB_NAME=students
+        DB_USER=postgres
+        DB_PASSWORD=simon
+        DB_HOST=127.0.0.1
+        DB_PORT=5432
+    3. create virtual environment. for example, python -m venv venv
+    4. venv\scripts\activate to activate virtual environment
+    5. ```python manage.py runserver```
+
 ## 3. Usage
     - Examples: Include examples or code snippets to demonstrate how to use your project.
     - Configuration: Explain any configuration options or settings users might need to know about.
