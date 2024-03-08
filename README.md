@@ -18,7 +18,9 @@
     - Code Style: If applicable, provide guidelines or references to your code style.
 ## 6. Credits
     - Authors: Seongjun Kim, Aidel Royart.
-    - Acknowledgments: bootswatch - https://bootswatch.com/, Font Awesome - https://fontawesome.com/
+    - Acknowledgments: 
+    - bootswatch - https://bootswatch.com/, 
+    - Font Awesome - https://fontawesome.com/
     
 ## 7. License
     - License Information: Specify the license under which your project is distributed.
