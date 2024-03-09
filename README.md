@@ -17,13 +17,16 @@
         DB_PASSWORD=simon
         DB_HOST=127.0.0.1
         DB_PORT=5432
-    5. create virtual environment. for example, python -m venv venv
+    5. create virtual environment. for example, comment in terminal: python -m venv venv
     6. `venv\scripts\activate` to activate virtual environment
     7. comment in terminal:
     python manage.py makemigrations
-    8. comment in terminal:
+    8. if got an error as "No module named psycog2", comment:
+        `pip install psycopg2`
+        and do makemigration again
+    9. comment in terminal:
     python manage.py migrate
-    9. `python manage.py runserver` to run server
+    10. `python manage.py runserver` to run server
 
 ## 3. Usage
     - Examples: Include examples or code snippets to demonstrate how to use your project.
@@ -34,17 +37,32 @@
     
 ## 4. Features
     - List of Features: Outline the main features and functionalities of your project.
+        - login, logout, and create account
+        - view all students
+        - add student
+        - edit and delete each student
+        
 ## 5. Contributing
     - Guidelines: Explain how others can contribute to your project, including information on submitting bug reports, feature requests, or code contributions.
+        - users can report bugs, feature requests, or code contribution through github 
     - Code Style: If applicable, provide guidelines or references to your code style.
+        - https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/coding-style/
+        - bootswatch
 ## 6. Credits
     - Authors: Seongjun Kim, Aidel Royart.
     - Acknowledgments: 
-    - bootswatch - https://bootswatch.com/, 
-    - Font Awesome - https://fontawesome.com/
+        - How to Start Django Project with a Database(PostgreSQL): https://stackpython.medium.com/how-to-start-django-project-with-a-database-postgresql-aaa1d74659d8
+        - How to use PostgreSQL with Django: https://www.enterprisedb.com/postgres-tutorials/how-use-postgresql-django
+        - Django Login, Logout, Signup, Password Change, and Password Reset: https://learndjango.com/tutorials/django-login-and-logout-tutorial
+        - bootswatch: https://bootswatch.com/
+        - Font Awesome: https://fontawesome.com/
     
 ## 7. License
     - License Information: Specify the license under which your project is distributed.
+        -django
+        -PostgreSQL
+        -bootstrap
+        -fontawesome
 ## 8. Additional Sections (Optional)
     - FAQ: Include frequently asked questions and their answers.
     - Troubleshooting: Provide solutions to common issues or troubleshooting tips.
