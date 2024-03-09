@@ -6,7 +6,18 @@
     - Title: Student Management System: Blackboard
     - Description: Teachers can manage the students' information
 ## 2. Installation
-    - Dependencies: PostgreSQL is required
+    - Dependencies:
+       -PostgreSqL
+       -django == 5.0.3
+       -django_environ == 0.11.2
+       -psycopg == 3.1.18
+       -psycopg2 == 2.9.9
+       -sqlparse == 0.4.4
+       -asgiref == 3.7.2
+       -pip == 24.0
+       -setuptools == 65.5.0
+       -typing_extensions == 4.10.0
+       
     - Installation Instructions:
     1. install PostgreSQL
     2. open pgAdmin4 
@@ -22,6 +33,7 @@
     7. comment in terminal:
     python manage.py makemigrations
     8. if got an error as "No module named psycog2", comment:
+        `pip install psycopg` or/and
         `pip install psycopg2`
         and do makemigration again
     9. comment in terminal:
@@ -30,10 +42,21 @@
 
 ## 3. Usage
     - Examples: Include examples or code snippets to demonstrate how to use your project.
-
+        1. get Django development server ready
+        2. go to url example: http://127.0.0.1:8000/
+        3. Homepage is view all student page. The page contains:
+        - Add student http://127.0.0.1:8000/add/ or nav link
+        - Edit student http://127.0.0.1:8000/edit/1/ or button of each student
+        - delete a student button
+        - more info button
+        - log out button will go to login page
+        - login goes to the main homepage
+        
+        
     
     - Configuration: Explain any configuration options or settings users might need to know about.
-
+        - enable to change db information from .env
+        
     
 ## 4. Features
     - List of Features: Outline the main features and functionalities of your project.
@@ -44,7 +67,8 @@
         
 ## 5. Contributing
     - Guidelines: Explain how others can contribute to your project, including information on submitting bug reports, feature requests, or code contributions.
-        - users can report bugs, feature requests, or code contribution through github 
+        - users can report bugs, feature requests, or code contribution through github or email to us
+        
     - Code Style: If applicable, provide guidelines or references to your code style.
         - https://docs.djangoproject.com/en/dev/internals/contributing/writing-code/coding-style/
         - bootswatch
