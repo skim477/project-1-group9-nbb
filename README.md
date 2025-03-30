@@ -18,27 +18,6 @@
        -setuptools == 65.5.0
        -typing_extensions == 4.10.0
        
-    - Installation Instructions:
-    1. install PostgreSQL
-    2. open pgAdmin4 
-    3. create DB
-    4. db_info are:
-        DB_NAME=students
-        DB_USER=postgres
-        DB_PASSWORD=simon
-        DB_HOST=127.0.0.1
-        DB_PORT=5432
-    5. create virtual environment. for example, comment in terminal: python -m venv venv
-    6. `venv\scripts\activate` to activate virtual environment
-    7. comment in terminal:
-    python manage.py makemigrations
-    8. if got an error as "No module named psycog2", comment:
-        `pip install psycopg` or/and
-        `pip install psycopg2`
-        and do makemigration again
-    9. comment in terminal:
-    python manage.py migrate
-    10. `python manage.py runserver` to run server
 
 ## 3. Usage
     - Examples: Include examples or code snippets to demonstrate how to use your project.
